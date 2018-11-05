@@ -22,3 +22,8 @@ h1{
   text-align: center;
   width: 100px;
 }
+
+.jumbotron{
+  border-radius: 5px;
+  padding: 10px;
+}
