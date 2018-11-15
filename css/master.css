@@ -10,7 +10,7 @@ body {
 }
 
 header{
-  padding: 60px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -26,4 +26,26 @@ h1{
 .jumbotron{
   border-radius: 5px;
   padding: 10px;
+}
+
+.white-background{
+  background-color: #eeeeee;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+.move-right{
+  float: right;
+}
+
+.p-formating{
+  margin-top: 40px;
+}
+
+.container{
+  padding-top: 20px;
+}
+
+.card-layout{
+  padding-bottom: 20px;
 }
