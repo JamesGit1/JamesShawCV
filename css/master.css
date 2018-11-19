@@ -62,3 +62,6 @@ h1{
 .first{
   text-align: right;
 }
+.card-deck{
+  margin: 0px;
+}
