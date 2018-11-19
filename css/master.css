@@ -18,6 +18,15 @@ h1{
     font-size: 80px;
 }
 
+.image-resize{
+    border-radius: 20px;
+  display: block;
+  margin: auto;
+  max-width: 960px;
+  width: 95%;
+  margin-top: 350px;
+}
+
 .container-fluid{
   text-align: center;
   width: 100px;
@@ -38,7 +47,7 @@ h1{
   float: right;
 }
 
-.p-formating{
+.p-formatting{
   margin-top: 40px;
 }
 
@@ -48,4 +57,8 @@ h1{
 
 .card-layout{
   padding-bottom: 20px;
+}
+
+.first{
+  text-align: right;
 }
