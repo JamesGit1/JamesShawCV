@@ -9,11 +9,18 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-header{
+.front-heading{
   padding: 30px;
   text-align: center;
 }
-
+.year-heading{
+  margin-top: 50px;
+  margin-left: 0.7%;
+  background-color: white;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
 h1{
     font-size: 80px;
 }
