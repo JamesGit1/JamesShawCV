@@ -37,6 +37,15 @@ h1{
   margin-top: 25%;
 }
 
+.p-underwater-comment{
+  max-width: 960px;
+  margin: auto;
+  border-radius: 5px;
+  width: 95%;
+  text-align: right;
+  background-color: white;
+}
+
 .jumbotron{
   border-radius: 5px;
   padding: 10px;
