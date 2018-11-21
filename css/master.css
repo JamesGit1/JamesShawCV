@@ -9,18 +9,32 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-header{
+nav{
+  margin-bottom: 1%;
+}
+
+.front-heading{
   padding: 30px;
   text-align: center;
 }
-
+.year-heading{
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
 h1{
     font-size: 80px;
 }
 
-.container-fluid{
-  text-align: center;
-  width: 100px;
+.image-resize{
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  max-width: 960px;
+  width: 95%;
+  margin-top: 25%;
 }
 
 .jumbotron{
@@ -38,14 +52,38 @@ h1{
   float: right;
 }
 
-.p-formating{
-  margin-top: 40px;
+.p-margin{
+  margin-bottom: 10px;
+  padding-right: 5px;
+  float: right;
 }
 
-.container{
-  padding-top: 20px;
+a.navbar-brand{
+    padding-bottom: 0px;
+}
+
+.p-formatting{
+  margin-top: 40px;
 }
 
 .card-layout{
   padding-bottom: 20px;
+}
+
+.first{
+  text-align: right;
+}
+
+.opaque-background{
+  border-radius: 10px;
+  background-color: rgba(265, 265, 265, 0.5);
+  width: 60%;
+  margin: auto;
+}
+
+.jumbotron-homepage{
+  width: 80%;
+  max-width: 930px;
+  margin: auto;
+  text-align: center;
 }
