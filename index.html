@@ -4,8 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Homepage</title>
+  <!--This makes icon in tab work-->
   <link rel="shortcut icon" href="favicon.ico">
+  <!--Makes sure to use responsive layout-->
   <meta name="viewport" content="width=device-width">
+  <!--import various css and other files-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
@@ -14,7 +17,7 @@
 </head>
 
 <body>
-  <!--Navbar element on everypage using bootstrap-->
+  <!--Navbar element on everypage using bootstrap, basic toggler with a lighter theme-->
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
@@ -46,10 +49,13 @@
 
   </nav>
   <main>
-    <div class="jumbotron-homepage" style="margin-top: 20px;"> <!--Small amount of inline css as not worth putting whole jumbotron in div element-->
+    <!--Large jumbotron to display carousel and button links-->
+    <div class="jumbotron-homepage" style="margin-top: 20px;">
+      <!--Small amount of inline css as not worth putting whole jumbotron in div element-->
       <div class="jumbotron">
         <h2>Welcome</h2>
         <p><i>to my small website to demonstrate my web authoring abilities</i></p>
+        <!--Bootstrap carousel with a few similar sized images-->
         <div id="carouselControl" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -65,6 +71,7 @@
               <p class="p-margin">-View From Hometown</p>
             </div>
           </div>
+          <!--Combined with js/jquery takes care of carousel movement-->
           <a class="carousel-control-prev" href="#carouselControl" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -75,6 +82,7 @@
           </a>
         </div>
 
+        <!--Container with all buttons to various places-->
         <div class="row">
           <div class="col">
             <a class="btn btn-primary btn-lg" href="https://github.com/JamesGit1" role="button">Check My github</a>
@@ -93,15 +101,16 @@
     </div>
   </main>
 
-<footer>
-  <div class="static-footer">
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-item mf-auto" href="https://github.com/JamesGit1"><i class="fab fa-github-square"></i></a>
-      <a class="navbar-item" href="https://github.com/JamesGit1">-Jamesgit1</a>
-      <a class="navbar-item ml-auto" href="index.html"><i class="fas fa-home"></i></a>
-    </nav>
-  </div>
-</footer>
+  <!--Footer with static class to try and keep it to the actual bottom of the page-->
+  <footer>
+    <div class="static-footer">
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-item mf-auto" href="https://github.com/JamesGit1"><i class="fab fa-github-square"></i></a>
+        <a class="navbar-item" href="https://github.com/JamesGit1">-Jamesgit1</a>
+        <a class="navbar-item ml-auto" href="index.html"><i class="fas fa-home"></i></a>
+      </nav>
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -9,8 +9,8 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-  /*Had issue always getting footer to apear at bottom, this sets to very bottom and if less that 700pixels just sets back to below jumbotron*/
-@media only screen and (min-height: 700px) {
+  /*Had issue always getting footer to apear at bottom, this sets to very bottom and if less that 700pixels just sets back to below jumbotron, there are still problems at extreme widths but reliably works for all*/
+@media only screen and (min-height: 844px) {
   .static-footer {
     position:absolute;
     bottom:0;
