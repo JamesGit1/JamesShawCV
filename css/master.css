@@ -9,8 +9,11 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-nav{
-  margin-bottom: 1%;
+/*Had issue always getting footer to apear at bottom, so this was added to pages where scrolling never happened*/
+.static-footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
 
 .front-heading{
@@ -21,20 +24,17 @@ nav{
   margin-top: 30px;
   background-color: #ffffff;
   border-radius: 5px;
-  width: 300px;
   text-align: center;
 }
-h1{
-    font-size: 80px;
-}
 
+/*Could've used a bit more bootstrap here to make the image appear where I wanted but I decided this would be easier*/
 .image-resize{
   border-radius: 20px;
   display: block;
   margin: auto;
   max-width: 960px;
   width: 95%;
-  margin-top: 25%;
+  margin-top: 50%;
 }
 
 .p-underwater-comment{
@@ -71,6 +71,11 @@ a.navbar-brand{
     padding-bottom: 0px;
 }
 
+p.navbar-text{
+  padding: 0px;
+  margin: 0px;
+}
+
 .p-formatting{
   margin-top: 40px;
 }
@@ -88,11 +93,13 @@ a.navbar-brand{
   background-color: rgba(265, 265, 265, 0.5);
   width: 60%;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .jumbotron-homepage{
   width: 80%;
-  max-width: 930px;
+  /*Would be nice to get this max-width a bit bigger but want it to show everything on a standard 1080x1920 screen, also images aren't that high quality*/
+  max-width: 950px;
   margin: auto;
   text-align: center;
 }
